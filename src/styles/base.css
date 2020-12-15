@@ -1,0 +1,5 @@
+/* Your custom base styles */
+body {
+  @apply bg-pink-100;
+}
+
