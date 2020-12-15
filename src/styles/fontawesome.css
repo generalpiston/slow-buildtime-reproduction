@@ -1,0 +1,17 @@
+@layer utilities {
+  .fontawesome {
+    @apply inline-block antialiased not-italic normal-nums;
+  }
+
+  .fontawesome-brands {
+    @apply font-normal;
+
+    font-family: 'Font Awesome 5 Free';
+  }
+
+  .fontawesome-solid {
+    @apply font-black;
+
+    font-family: 'Font Awesome 5 Free';
+  }
+}
