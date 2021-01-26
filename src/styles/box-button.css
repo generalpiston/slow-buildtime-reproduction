@@ -1,0 +1,27 @@
+@layer components {
+  .box-button {
+    @apply flex flex-row items-center justify-start border border-solid border-gray-200 rounded-lg cursor-pointer p-6;
+
+    & ~ .box-button {
+      @apply mt-4;
+    }
+
+    &::before {
+      @apply fontawesome fontawesome-brands mr-6;
+
+      content: '\f111';
+    }
+
+    &:hover::before {
+      @apply fontawesome fontawesome-solid;
+
+      content: '\f111';
+    }
+
+    &.is-active::before {
+      @apply fontawesome fontawesome-solid;
+
+      content: '\f111';
+    }
+  }
+}
